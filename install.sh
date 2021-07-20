@@ -5,7 +5,6 @@ USRDIR="/usr"
 CKPTDIR="share/cockpit"
 USRLOC="$USRDIR/$CKPTDIR/$NAME"
 
-
 if [ "$EUID" -ne 0 ]
 then
 	echo "Please execute as root ('sudo install.sh' or 'sudo make install')"
